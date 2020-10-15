@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace ECM.Identitidade.API.Controllers
 {
+    [ApiController]
     [Route("api/v1/identidade")]
     public class IdentidadeController : Controller
     {
